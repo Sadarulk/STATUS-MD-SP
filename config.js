@@ -8,17 +8,17 @@ global.appUrl = process.env.APP_URL || "";
 global.email = "masterhelper@gmail.com";
 global.location = "Asia/Colombo";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority";
-global.allowJids = process.env.ALLOW_JID || "94720797915@s.whatsapp.net";
+global.allowJids = process.env.ALLOW_JID || "94701814946@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/colombo";
-global.github = process.env.GITHUB || "https://github.com/MrMasterOfc/MASTER-MD-V2";
+global.github = process.env.GITHUB || "https://github.com/Sadarulk/MASTER-MD-V2-SP";
 global.gurl = process.env.GURL || "";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaWWZa1G3R3c4TPADo0M";
+global.website = process.env.GURL || "https://chat.whatsapp.com/DTy4uNnbcO6FLkJJ0uIM1y";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/2368f1b5d6ff724ae0c51.jpg";
-global.devs = "923135673658";
-global.sudo = process.env.SUDO || "94720797915,94763621705";
-global.owner = process.env.OWNER_NUMBER || "94720797915";
+global.devs = "94701814946";
+global.sudo = process.env.SUDO || "94701814946,94754151785";
+global.owner = process.env.OWNER_NUMBER || "94701814946";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -47,12 +47,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ꜱᴀʜᴀɴ ᴏꜰᴄ",
-  author: process.env.PACK_AUTHER || "Sahan",
-  packname: process.env.PACK_NAME || "MASTER-MD",
-  botname: process.env.BOT_NAME || "•ᴍᴀꜱᴛᴇʀ-ᴍᴅ•",
-  ownername: process.env.OWNER_NAME || "Sahan",
-  errorChat: process.env.ERROR_CHAT || "94720797915",
+  caption: process.env.CAPTION || "*_© SADARU-MD_* *Created By Sadaru*",
+  author: process.env.PACK_AUTHER || "Sadaru",
+  packname: process.env.PACK_NAME || "SADARU-MD",
+  botname: process.env.BOT_NAME || "•SADARU-MD•",
+  ownername: process.env.OWNER_NAME || "Sadaru",
+  errorChat: process.env.ERROR_CHAT || "94701814946",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "neLbXXrp8bSDcohnp1CW5UEa",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
@@ -62,7 +62,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "345f70f1c3f2ecef4d718d33c14026f9",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "WASI").toUpperCase(),
 };
 global.rank = "updated";
